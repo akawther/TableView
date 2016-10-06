@@ -34,10 +34,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.tableView.endUpdates()
             self.loadMore.endRefreshing()
             
-            self.tableView.beginUpdates()
+            //self.tableView.beginUpdates()
             let indexPath = IndexPath(row: 3, section: 0)
-            self.tableView.scrollToRow(at: indexPath, at: .top, animated: false)
-            self.tableView.endUpdates()
+            self.tableView.scrollToRow(at: indexPath, at: .top, animated: true)
+            //self.tableView.endUpdates()
+            
+            self.tableView.panGestureRecognizer.isEnabled = false
+            let when = DispatchTime.now() + 0.05 // works the same without 0.05
+            DispatchQueue.main.asyncAfter(deadline: when)
+            {
+                self.tableView.panGestureRecognizer.isEnabled = true
+            }
         })
     }
 
