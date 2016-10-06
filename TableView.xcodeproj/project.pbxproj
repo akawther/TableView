@@ -12,6 +12,7 @@
 		E719CC181DA6A18800867CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E719CC161DA6A18800867CA4 /* Main.storyboard */; };
 		E719CC1A1DA6A18800867CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E719CC191DA6A18800867CA4 /* Assets.xcassets */; };
 		E719CC1D1DA6A18800867CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E719CC1B1DA6A18800867CA4 /* LaunchScreen.storyboard */; };
+		E719CC251DA6A3CF00867CA4 /* customCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719CC241DA6A3CF00867CA4 /* customCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E719CC191DA6A18800867CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E719CC1C1DA6A18800867CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E719CC1E1DA6A18800867CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E719CC241DA6A3CF00867CA4 /* customCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E719CC121DA6A18800867CA4 /* AppDelegate.swift */,
 				E719CC141DA6A18800867CA4 /* ViewController.swift */,
 				E719CC161DA6A18800867CA4 /* Main.storyboard */,
+				E719CC241DA6A3CF00867CA4 /* customCellTableViewCell.swift */,
 				E719CC191DA6A18800867CA4 /* Assets.xcassets */,
 				E719CC1B1DA6A18800867CA4 /* LaunchScreen.storyboard */,
 				E719CC1E1DA6A18800867CA4 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E719CC151DA6A18800867CA4 /* ViewController.swift in Sources */,
+				E719CC251DA6A3CF00867CA4 /* customCellTableViewCell.swift in Sources */,
 				E719CC131DA6A18800867CA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
